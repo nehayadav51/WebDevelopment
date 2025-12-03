@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="vol">Select your volume :</label>
+            <input type="range" id="vol" name="vol" min="0" max="100">
+        </div>
+        <button type="submit">Save</button>
+    </form>
+    <hr>
+    <!-- STEP attribute -->
+    <form action="/server">
+        <div>
+            <label for="vol">Select your volume :</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="10">
+        </div>
+        <button type="submit">Save</button>
+    </form>
+    <hr>
+    <!-- value attri(already set the range at fixed value)-->
+     <form action="/server">
+        <div>
+            <label for="vol">Select your volume :</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="10" value="60">
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
