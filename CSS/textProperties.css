@@ -1,0 +1,32 @@
+h1{
+    /* TEXT-ALIGN */
+    text-align: center;
+    border: solid purple;
+    width: 10%;
+
+    /* FONT-WEIGHT */
+    font-weight: 800;
+
+    /* TEXT-DECORATION */
+    text-decoration: underline;
+}
+
+h2{
+    text-decoration-color: black;
+    text-decoration: line-through;
+}
+
+h3{
+    text-decoration: double red overline;
+    letter-spacing: 15px;
+}
+
+h4{
+    text-decoration: red wavy underline;
+    font-family:cursive;
+}
+
+/* LINE-HEIGHT */
+P{
+    line-height: 22px;
+}
