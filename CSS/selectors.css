@@ -1,0 +1,19 @@
+/* universal selector */
+*{
+    background-color: rgb(233, 207, 212);
+}
+
+/* element selector */
+h1{
+    background-color: rgb(189, 156, 219);
+}
+
+/* id selector */
+#login{
+    background-color: rgb(235, 136, 136);
+}
+
+/* class selector */
+.h3{
+    background-color: yellowgreen;
+}
